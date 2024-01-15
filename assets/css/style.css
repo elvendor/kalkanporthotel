@@ -1,5 +1,4 @@
 
-/* Kingho HTML Template  */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -70,6 +69,7 @@
     line-height: inherit;
 }
 
+
 /*** 
 
 ====================================================================
@@ -87,7 +87,7 @@ font-family: 'Roboto', sans-serif;
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: rgb(255, 255, 255);
+    background: rgb(239, 239, 239);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6em;
@@ -230,6 +230,10 @@ button {
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
+}
+
+.auto-container .sec-title{
+    margin-top: 50px;
 }
 
 ul,
@@ -2302,6 +2306,11 @@ header.main-header.header-style-one.style-two {
     color: #0e2a4e;
     font-weight: 800;
     margin-bottom: 50px;
+    padding-top: 15px;
+}
+
+.sec-title .text-center{
+    margin-top: 40px;
 }
 
 .sec-title {
@@ -2310,6 +2319,7 @@ header.main-header.header-style-one.style-two {
     color: #111111;
     font-weight: 600;
     font-family: "Playfair Display";
+    margin-top: 50px;
 }
 
 .sec-title.small {
@@ -2329,6 +2339,7 @@ section.service-section .title-box {margin-top: 80px;margin-bottom: 45px;}
 .text-light .sec-title{
     color:#fff
 }
+
 
 h1.banner-title {
     font-size: 80px;
