@@ -8686,22 +8686,9 @@ section.section-three img:hover {
 
 
 
-@-webkit-keyframes pulse {
-    0% {
-        -webkit-transform: scale(0.9);
-    }
-    50% {
-        -webkit-transform: scale(1.1);
-    }
-    100% {
-        -webkit-transform: scale(0.9);
-    }
-}
-
 .mypage-alo-phone {
     position: fixed;
-    left: 18px;
-    bottom: 19px;
+    bottom: 0px;
     visibility: visible;
     background-color: transparent;
     width: 110px;
@@ -8711,50 +8698,22 @@ section.section-three img:hover {
 }
 
 .mypage-alo-ph-img-circle {
-    width: 30px;
-    height: 30px;
-    top: 43px;
-    left: 43px;
+    width: 60px;
+    height: 60px;
+    left: 40px;
     position: absolute;
     background: url('/assets/images/background/phone.png') no-repeat center center;
     background-size: cover; 
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    border: 2px solid transparent;
-    opacity: .7;
-    transition: all 0.2s ease-in-out;
-    transform-origin: 50% 50%;
+    animation: none;
     background-color: #354ca1;
-    background-size: 70%;
-    animation: pulse 1s infinite;
+    background-size: 60%;
+   
 }
 
-.mypage-alo-ph-circle-fill {
-    width: 60px;
-    height: 60px;
-    top: 28px;
-    left: 28px;
-    position: absolute;
-    transition: all 0.2s ease-in-out;
-    border-radius: 100%;
-    border: 2px solid transparent;
-    background-color: rgba(87, 100, 148, 0.5);
-    opacity: .75 !important;
-    animation: pulse 1s infinite;
-}
 
-.mypage-alo-ph-circle {
-    width: 90px;
-    height: 90px;
-    top: 12px;
-    left: 12px;
-    position: absolute;
-    background-color: transparent;
-    border-radius: 100%;
-    border: 2px solid rgba(30, 30, 30, 0.4);
-    opacity: .5;
-}
 
 
 
